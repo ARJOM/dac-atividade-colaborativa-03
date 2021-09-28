@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8786b486-1031-49fe-808e-aa3974738799" name="Default Changelist" comment="feat: adiciona api de produtos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/domain/CPF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/domain/Integrante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/infra/converter/ConverterCPF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/infra/converter/LocalDateConverter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="jsf" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yNN2lA9u6PUUU08xpm41DrkBNU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/domain/produto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/clientes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.68" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="core:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/core_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="core:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8786b486-1031-49fe-808e-aa3974738799" name="Default Changelist" comment="" />
+      <created>1632087886859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632087886859</updated>
+      <workItem from="1632087888242" duration="2451000" />
+      <workItem from="1632181093244" duration="7230000" />
+      <workItem from="1632265839337" duration="6402000" />
+      <workItem from="1632277160965" duration="510000" />
+      <workItem from="1632331499346" duration="32684000" />
+      <workItem from="1632402510272" duration="5640000" />
+      <workItem from="1632859868154" duration="1628000" />
+      <workItem from="1632864952319" duration="2328000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat(domain): adiciona classes que representam o domínio da aplicação">
+      <created>1632188440542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632188440542</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(domain): adiciona interfaces para classes de manipulação de dados&#10;também organiza os arquivos dos domínios em pacotes">
+      <created>1632195362406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632195362406</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: implementa formulário de cadastro de cliente">
+      <created>1632378733229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632378733229</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: implementa opção de remover cliente">
+      <created>1632382963045</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632382963045</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: corrige escopo do controlador de clientes">
+      <created>1632403257096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632403257096</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: corrige escopo do controlador de clientes">
+      <created>1632403864634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632403864634</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(domain): implementa classes de acesso para domínio do produto">
+      <created>1632408058995</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632408058995</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: adiciona api de produtos">
+      <created>1632408183207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632408183207</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(domain): adiciona classes que representam o domínio da aplicação" />
+    <MESSAGE value="feat(domain): adiciona interfaces para classes de manipulação de dados&#10;também organiza os arquivos dos domínios em pacotes" />
+    <MESSAGE value="feat: implementa opção de remover cliente" />
+    <MESSAGE value="feat: implementa formulário de cadastro de cliente" />
+    <MESSAGE value="fix: corrige escopo do controlador de clientes" />
+    <MESSAGE value="feat(domain): implementa classes de acesso para domínio do produto" />
+    <MESSAGE value="feat: adiciona api de produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adiciona api de produtos" />
+  </component>
+</project>
