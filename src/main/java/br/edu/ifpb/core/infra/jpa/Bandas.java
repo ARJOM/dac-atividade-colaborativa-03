@@ -18,6 +18,13 @@ public class Bandas {
         manager.persist(banda);
         return banda;
     }
+    public void update(Banda banda) {
+        manager.merge(banda);
+    }
+
+    public void delete(Banda banda){
+        manager.remove(manager.merge(banda));
+    }
 
     public List<Banda> todos(){
         return manager.createQuery("SELECT b FROM Banda b", Banda.class).getResultList();

@@ -19,6 +19,14 @@ public class Integrantes {
         return integrante;
     }
 
+    public void updateIntegrante(Integrante integrante){
+        manager.merge(integrante);
+    }
+
+    public void deleteIntegrante (Integrante integrante){
+        manager.remove(manager.merge(integrante));
+    }
+
     public List<Integrante> todos(){
         return manager.createQuery("SELECT i FROM Integrante i", Integrante.class).getResultList();
     }
