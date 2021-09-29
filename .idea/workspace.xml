@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8786b486-1031-49fe-808e-aa3974738799" name="Default Changelist" comment="feat: implementa listagem de banda com nome de integrante">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/buscaPorCpf.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/buscaPorLocalDeOrigem.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/edit.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/list.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/search.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/listagempordata.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeBandas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeBandas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeIntegrantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeIntegrantes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,7 @@
       <workItem from="1632402510272" duration="5640000" />
       <workItem from="1632859868154" duration="1628000" />
       <workItem from="1632864952319" duration="10123000" />
-      <workItem from="1632917996595" duration="6106000" />
+      <workItem from="1632917996595" duration="7091000" />
     </task>
     <task id="LOCAL-00001" summary="feat(domain): adiciona classes que representam o domínio da aplicação">
       <created>1632188440542</created>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632921905286</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: implementa tela de busca por cpf">
+      <created>1632924166679</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1632924166679</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="feat: adiciona persistencia de banco e implementa buscas&#10;foi implementado todas as buscas solicitadas nos requisitos da atividade" />
     <MESSAGE value="feat: implementa listagem de banda com nome de integrante" />
     <MESSAGE value="feat: implementa listagem de banda com nome de integrantes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa listagem de banda com nome de integrantes" />
+    <MESSAGE value="feat: implementa tela de busca por cpf" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa tela de busca por cpf" />
   </component>
 </project>

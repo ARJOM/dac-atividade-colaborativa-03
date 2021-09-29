@@ -35,6 +35,10 @@ public class ControladorDeIntegrantes {
          return null;
     }
 
+    public List<Integrante> listagemPorNascimento(){
+        return integrantes.integrantesPorIntervaloEspecifico();
+    }
+
     public List<Integrante> resultadoDeBusca(){
         List<Integrante> lista = new ArrayList<>();
         lista.add(this.integrante);
