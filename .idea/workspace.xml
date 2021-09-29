@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8786b486-1031-49fe-808e-aa3974738799" name="Default Changelist" comment="feat: adiciona api de produtos">
-      <change afterPath="$PROJECT_DIR$/env/app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/database/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/domain/Integrante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/domain/Integrante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +111,7 @@
       <workItem from="1632331499346" duration="32684000" />
       <workItem from="1632402510272" duration="5640000" />
       <workItem from="1632859868154" duration="1628000" />
-      <workItem from="1632864952319" duration="2864000" />
+      <workItem from="1632864952319" duration="4507000" />
     </task>
     <task id="LOCAL-00001" summary="feat(domain): adiciona classes que representam o domínio da aplicação">
       <created>1632188440542</created>
