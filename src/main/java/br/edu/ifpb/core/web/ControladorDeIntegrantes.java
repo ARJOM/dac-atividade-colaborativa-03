@@ -7,16 +7,18 @@ import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
+import java.util.ArrayList;
 import java.util.List;
 
 @Named
-@RequestScoped
+@SessionScoped
 public class ControladorDeIntegrantes {
 
     @Inject
     private Integrantes integrantes;
 
     private Integrante integrante = new Integrante();
+    private String cpfDeBusca = "";
 
     public String salvar(){
         integrantes.salvar(this.integrante);
@@ -26,6 +28,25 @@ public class ControladorDeIntegrantes {
 
     public List<Integrante> todosOsIntegrantes(){
         return this.integrantes.todos();
+    }
+
+    public String buscarPorCpf(){
+         this.integrante = integrantes.buscarPorCPF(cpfDeBusca);
+         return null;
+    }
+
+    public List<Integrante> resultadoDeBusca(){
+        List<Integrante> lista = new ArrayList<>();
+        lista.add(this.integrante);
+        return lista;
+    }
+
+    public String getCpfDeBusca() {
+        return cpfDeBusca;
+    }
+
+    public void setCpfDeBusca(String cpfDeBusca) {
+        this.cpfDeBusca = cpfDeBusca;
     }
 
     public Integrante getIntegrante() {
