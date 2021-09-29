@@ -1,0 +1,4 @@
+FROM postgres
+ENV POSTGRES_DB atividade03
+ENV POSTGRES_USER postgres
+ENV POSTGRES_PASSWORD postgres
