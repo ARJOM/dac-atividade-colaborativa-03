@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8786b486-1031-49fe-808e-aa3974738799" name="Default Changelist" comment="feat: adiciona persistencia de banco e implementa buscas&#10;foi implementado todas as buscas solicitadas nos requisitos da atividade">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeBandas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bandaseintegrantes.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/buscaPorCpf.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/edit.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/list.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/search.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/infra/jpa/Bandas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/infra/jpa/Bandas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +112,7 @@
       <workItem from="1632402510272" duration="5640000" />
       <workItem from="1632859868154" duration="1628000" />
       <workItem from="1632864952319" duration="10123000" />
-      <workItem from="1632917996595" duration="2591000" />
+      <workItem from="1632917996595" duration="3611000" />
     </task>
     <task id="LOCAL-00001" summary="feat(domain): adiciona classes que representam o domínio da aplicação">
       <created>1632188440542</created>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632920583569</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: adiciona persistencia de banco e implementa buscas&#10;foi implementado todas as buscas solicitadas nos requisitos da atividade">
+      <created>1632920611351</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632920611351</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
