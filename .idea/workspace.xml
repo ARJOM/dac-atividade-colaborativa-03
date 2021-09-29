@@ -9,9 +9,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/edit.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/list.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/search.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/listagempordata.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeIntegrantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeIntegrantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeBandas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeBandas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <workItem from="1632402510272" duration="5640000" />
       <workItem from="1632859868154" duration="1628000" />
       <workItem from="1632864952319" duration="10123000" />
-      <workItem from="1632917996595" duration="7091000" />
+      <workItem from="1632917996595" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="feat(domain): adiciona classes que representam o domínio da aplicação">
       <created>1632188440542</created>
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632924166679</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: implementa listagem de integrantes com base em data de nascimento previamente especificada">
+      <created>1632925145685</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1632925145685</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +238,7 @@
     <MESSAGE value="feat: implementa listagem de banda com nome de integrante" />
     <MESSAGE value="feat: implementa listagem de banda com nome de integrantes" />
     <MESSAGE value="feat: implementa tela de busca por cpf" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa tela de busca por cpf" />
+    <MESSAGE value="feat: implementa listagem de integrantes com base em data de nascimento previamente especificada" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa listagem de integrantes com base em data de nascimento previamente especificada" />
   </component>
 </project>
