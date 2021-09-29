@@ -11,7 +11,9 @@ import java.util.Objects;
 @Entity
 public class Integrante implements Serializable {
     @Id
+    @GeneratedValue
     private int id;
+    
     private String nome;
 
     @Temporal(TemporalType.DATE)
