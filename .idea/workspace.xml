@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8786b486-1031-49fe-808e-aa3974738799" name="Default Changelist" comment="feat: adiciona api de produtos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/infra/jpa/Integrantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/web/ControladorDeIntegrantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+    <list default="true" id="8786b486-1031-49fe-808e-aa3974738799" name="Default Changelist" comment="feat: adiciona persistencia de banco e implementa buscas&#10;foi implementado todas as buscas solicitadas nos requisitos da atividade">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/buscaPorCpf.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/edit.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/list.xhtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/integrante/search.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/domain/Integrante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/domain/Integrante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/infra/jpa/Bandas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/core/infra/jpa/Bandas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ads-dac-jpa/jpa-inicial/jpa-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,13 +59,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,7 +109,8 @@
       <workItem from="1632331499346" duration="32684000" />
       <workItem from="1632402510272" duration="5640000" />
       <workItem from="1632859868154" duration="1628000" />
-      <workItem from="1632864952319" duration="9831000" />
+      <workItem from="1632864952319" duration="10123000" />
+      <workItem from="1632917996595" duration="2591000" />
     </task>
     <task id="LOCAL-00001" summary="feat(domain): adiciona classes que representam o domínio da aplicação">
       <created>1632188440542</created>
@@ -177,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632875556549</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="chore: tenta replicar criacao e listagem de entidade">
+      <created>1632881121498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632881121498</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: adiciona persistencia de banco e implementa buscas&#10;foi implementado todas as buscas solicitadas nos requisitos da atividade">
+      <created>1632920583569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632920583569</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +204,8 @@
     <MESSAGE value="feat(domain): implementa classes de acesso para domínio do produto" />
     <MESSAGE value="feat: adiciona api de produtos" />
     <MESSAGE value="build: adiciona configuração do docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: adiciona configuração do docker" />
+    <MESSAGE value="chore: tenta replicar criacao e listagem de entidade" />
+    <MESSAGE value="feat: adiciona persistencia de banco e implementa buscas&#10;foi implementado todas as buscas solicitadas nos requisitos da atividade" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adiciona persistencia de banco e implementa buscas&#10;foi implementado todas as buscas solicitadas nos requisitos da atividade" />
   </component>
 </project>
